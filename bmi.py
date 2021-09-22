@@ -35,10 +35,14 @@ while True:
         continue
 
 # Fragt das Gewicht ab
-gewicht = float(input("Dein Gewicht in Kilogramm -> Anstelle eines Kommas ein Punkt benutzen:\n>>"))
+gewicht = input("Dein Gewicht in Kilogramm\n>>")
+gewicht = gewicht.replace(",", ".")
+gewicht = float(gewicht)
 
 # Fragt die Groesse ab
-groesse = float(input("Deine Größe in Meter -> Anstelle eines Kommas ein Punkt benutzen:\n>>"))
+groesse = input("Deine Größe in Meter\n>>")
+groesse = groesse.replace(",", ".")
+groesse = float(groesse)
 
 #Rechnet mit den Werten
 BMI = gewicht / (groesse ** 2)
