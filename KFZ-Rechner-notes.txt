@@ -1,0 +1,15 @@
+Benötigt wird:
+    Antriebsart
+    Hubraum in ccm
+    CO2-Ausstoß in g/km
+    zulässige gesamtmasse bei E-Autos
+
+
+Diesel & Benzin:
+9,50€ je angefangenen 100 ccm + 2€ je Gramm über 95 g/km
+
+
+Elektro:
+bis 2000 kg     -> 5,652
+2001 - 3000 kg  -> 6,01
+3001 - 3500 kg  -> 6,39
